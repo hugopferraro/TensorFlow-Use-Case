@@ -1,0 +1,87 @@
+{
+  "raw_rows": 13611,
+  "columns": 17,
+  "numeric_features": 16,
+  "classes": 7,
+  "missing_values": 0,
+  "exact_duplicate_rows": 68,
+  "minority_class": "BOMBAY",
+  "minority_count": 522,
+  "majority_class": "DERMASON",
+  "majority_count": 3546,
+  "imbalance_ratio": 6.793103448275862,
+  "strongest_feature_class_associations": [
+    {
+      "feature": "Area",
+      "anova_f": 29017.51046189067,
+      "p_value": 0.0,
+      "eta_squared": 0.9275261417901194
+    },
+    {
+      "feature": "ConvexArea",
+      "anova_f": 28961.791216713737,
+      "p_value": 0.0,
+      "eta_squared": 0.9273968333726496
+    },
+    {
+      "feature": "EquivDiameter",
+      "anova_f": 25444.547793907506,
+      "p_value": 0.0,
+      "eta_squared": 0.9181819046161924
+    },
+    {
+      "feature": "Perimeter",
+      "anova_f": 24283.663708139076,
+      "p_value": 0.0,
+      "eta_squared": 0.914604587925953
+    },
+    {
+      "feature": "MinorAxisLength",
+      "anova_f": 22442.38638169418,
+      "p_value": 0.0,
+      "eta_squared": 0.9082412362632168
+    }
+  ],
+  "strongest_absolute_correlations": [
+    {
+      "feature_pair": "Area | EquivDiameter",
+      "spearman_abs": 1.0
+    },
+    {
+      "feature_pair": "AspectRation | Eccentricity",
+      "spearman_abs": 1.0
+    },
+    {
+      "feature_pair": "Compactness | ShapeFactor3",
+      "spearman_abs": 1.0
+    },
+    {
+      "feature_pair": "Area | ConvexArea",
+      "spearman_abs": 0.9999307371115936
+    },
+    {
+      "feature_pair": "ConvexArea | EquivDiameter",
+      "spearman_abs": 0.9999307371115936
+    },
+    {
+      "feature_pair": "Eccentricity | Compactness",
+      "spearman_abs": 0.9997049659839027
+    },
+    {
+      "feature_pair": "AspectRation | ShapeFactor3",
+      "spearman_abs": 0.9997049659839027
+    },
+    {
+      "feature_pair": "Eccentricity | ShapeFactor3",
+      "spearman_abs": 0.9997049659839027
+    },
+    {
+      "feature_pair": "AspectRation | Compactness",
+      "spearman_abs": 0.9997049659839027
+    },
+    {
+      "feature_pair": "MinorAxisLength | ShapeFactor1",
+      "spearman_abs": 0.9994794905187598
+    }
+  ]
+}

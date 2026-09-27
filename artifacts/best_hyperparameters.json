@@ -1,0 +1,13 @@
+{
+  "l2_strength": 0.001,
+  "dropout_rate": 0.4,
+  "hidden_layers": 1,
+  "batch_normalization": true,
+  "units_1": 256,
+  "learning_rate": 0.001,
+  "units_2": 32,
+  "units_3": 128,
+  "trained_epochs": 71,
+  "best_epoch_by_validation_loss": 61,
+  "best_validation_accuracy": 0.9315608143806458
+}

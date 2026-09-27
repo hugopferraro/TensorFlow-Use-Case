@@ -1,0 +1,33 @@
+{
+  "config": {
+    "seed": 42,
+    "test_size": 0.15,
+    "validation_size": 0.15,
+    "max_trials": 12,
+    "search_epochs": 60,
+    "final_epochs": 120,
+    "patience": 10,
+    "bootstrap_iterations": 2000,
+    "permutation_repeats": 10,
+    "quick": false
+  },
+  "dataset": {
+    "source": "https://archive.ics.uci.edu/static/public/602/dry+bean+dataset.zip",
+    "doi": "10.24432/C50S4B",
+    "archive_sha256": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f",
+    "license": "CC BY 4.0"
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Sep 24 2026, 17:57:31) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "tensorflow": "2.20.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit_learn": "1.7.2",
+    "keras_tuner": "1.4.7",
+    "physical_devices": [
+      "/physical_device:CPU:0"
+    ]
+  }
+}

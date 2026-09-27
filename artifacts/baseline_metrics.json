@@ -1,0 +1,15 @@
+{
+  "majority_dummy": {
+    "accuracy": 0.2618110236220472,
+    "balanced_accuracy": 0.14285714285714285,
+    "macro_f1": 0.059282371294851796,
+    "weighted_f1": 0.10864544818013193
+  },
+  "logistic_regression": {
+    "accuracy": 0.9173228346456693,
+    "balanced_accuracy": 0.9345687961350101,
+    "macro_f1": 0.932710692928086,
+    "weighted_f1": 0.9174990052288189,
+    "log_loss": 0.22582946808225743
+  }
+}

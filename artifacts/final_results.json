@@ -1,0 +1,130 @@
+{
+  "test_metrics": {
+    "accuracy": 0.922244094488189,
+    "balanced_accuracy": 0.938452989181914,
+    "macro_f1": 0.9365526592387895,
+    "weighted_f1": 0.9223967813118044,
+    "log_loss": 0.21084356094384057
+  },
+  "bootstrap_95_percent_intervals": {
+    "accuracy": {
+      "lower_95": 0.9099409448818898,
+      "upper_95": 0.9335629921259843
+    },
+    "macro_f1": {
+      "lower_95": 0.9258657800806136,
+      "upper_95": 0.945957913695061
+    }
+  },
+  "baselines": {
+    "majority_dummy": {
+      "accuracy": 0.2618110236220472,
+      "balanced_accuracy": 0.14285714285714285,
+      "macro_f1": 0.059282371294851796,
+      "weighted_f1": 0.10864544818013193
+    },
+    "logistic_regression": {
+      "accuracy": 0.9173228346456693,
+      "balanced_accuracy": 0.9345687961350101,
+      "macro_f1": 0.932710692928086,
+      "weighted_f1": 0.9174990052288189,
+      "log_loss": 0.22582946808225743
+    }
+  },
+  "paired_comparison_with_logistic_regression": {
+    "neural_only_correct": 34,
+    "logistic_only_correct": 24,
+    "exact_mcnemar_p_value": 0.23704711476271959
+  },
+  "training_diagnostics": {
+    "epochs": 71,
+    "minimum_validation_loss": 0.22542689740657806,
+    "final_training_accuracy": 0.9352320432662964,
+    "final_validation_accuracy": 0.9246676564216614,
+    "final_accuracy_gap": 0.01056438684463501
+  },
+  "most_important_features": [
+    {
+      "feature": "roundness",
+      "mean_accuracy_drop": 0.19817913385826771,
+      "std_accuracy_drop": 0.004552276192167018
+    },
+    {
+      "feature": "ShapeFactor1",
+      "mean_accuracy_drop": 0.14670275590551185,
+      "std_accuracy_drop": 0.00720460040578094
+    },
+    {
+      "feature": "ShapeFactor4",
+      "mean_accuracy_drop": 0.08823818897637802,
+      "std_accuracy_drop": 0.004714887696235158
+    },
+    {
+      "feature": "AspectRation",
+      "mean_accuracy_drop": 0.06368110236220473,
+      "std_accuracy_drop": 0.00462354042780913
+    },
+    {
+      "feature": "Compactness",
+      "mean_accuracy_drop": 0.05255905511811025,
+      "std_accuracy_drop": 0.00517083682541877
+    }
+  ],
+  "classification_report": {
+    "BARBUNYA": {
+      "precision": 0.9353233830845771,
+      "recall": 0.9494949494949495,
+      "f1-score": 0.9423558897243107,
+      "support": 198.0
+    },
+    "BOMBAY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 78.0
+    },
+    "CALI": {
+      "precision": 0.9423868312757202,
+      "recall": 0.9346938775510204,
+      "f1-score": 0.9385245901639344,
+      "support": 245.0
+    },
+    "DERMASON": {
+      "precision": 0.9357429718875502,
+      "recall": 0.8759398496240601,
+      "f1-score": 0.9048543689320389,
+      "support": 532.0
+    },
+    "HOROZ": {
+      "precision": 0.9496402877697842,
+      "recall": 0.946236559139785,
+      "f1-score": 0.947935368043088,
+      "support": 279.0
+    },
+    "SEKER": {
+      "precision": 0.9421221864951769,
+      "recall": 0.9638157894736842,
+      "f1-score": 0.9528455284552846,
+      "support": 304.0
+    },
+    "SIRA": {
+      "precision": 0.8416075650118203,
+      "recall": 0.898989898989899,
+      "f1-score": 0.8693528693528694,
+      "support": 396.0
+    },
+    "accuracy": 0.922244094488189,
+    "macro avg": {
+      "precision": 0.9352604607892328,
+      "recall": 0.938452989181914,
+      "f1-score": 0.9365526592387895,
+      "support": 2032.0
+    },
+    "weighted avg": {
+      "precision": 0.9234869317344777,
+      "recall": 0.922244094488189,
+      "f1-score": 0.9223967813118044,
+      "support": 2032.0
+    }
+  }
+}
